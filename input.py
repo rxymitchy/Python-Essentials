@@ -18,9 +18,12 @@ print("Sum: " + str(sum))#converts sum into string so as python can combine
 course = 'Python for beginners'
 print(course.upper())#creates a new statement does not tamper with course
 print(course)
+print("Return index of y:")
 print(course.find('y'))#index for y in statement
 print(course.replace('for', '4'))#replaces for with 4 in the statement
+print("Index of the first letter in python:")
 print(course.find('Python'))#index of first letter
+print("indicates if python is present:")
 print('Python' in course)#uses in operation to find words , returns boolean values
 #control shift home- selects stuff from bottom to top
 #control / - comments stuff
