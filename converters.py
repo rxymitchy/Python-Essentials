@@ -3,3 +3,19 @@ def lbs_to_kg(weight):
 
 def kg_to_lbs(weight):
     return weight / 0.45
+
+
+def find_max(numbers):
+    maximum = numbers[0]
+    for number in numbers:
+       if number >maximum:
+        maximum = number
+    return maximum
+
+# A simple module, calc.py
+def add(x, y):
+    return (x+y)
+ 
+def subtract(x, y):
+    return (x-y)
+
