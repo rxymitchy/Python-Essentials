@@ -1,0 +1,2 @@
+sample = "This part is going to be replaced"
+print(sample)
